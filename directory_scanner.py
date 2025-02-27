@@ -15,7 +15,7 @@ def find_media_files(directory):
 # Example Usage
 directory = r"C:\\media"  # Change this to your actual media directory
 files = find_media_files(directory)
-print(f"Found {len(files)} media files: {files}")
+print(f"Found {len(files)} media files: {files}\n")
 if not os.path.exists(directory):
     print(f"Directory {directory} does not exist.")
     exit()
